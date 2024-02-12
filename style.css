@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+*, :root {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  }
+
+  body{
+    background-color: #13244e;
+  }
+
+  main {
+    padding: 20px;
+    max-width: 640px;
+    margin: 0 auto 64px;
+  }
+
+
+  header {
+    /* Utilizado para estilizar o conteúdo dentro da tag header*/
+    margin-top: 64px;
+    padding-bottom: 5px;
+    border-bottom: 1px;
+    text-align: center;
+    display: grid;
+    gap: 0px;
+
+    font-family: 'Inter', sans-serif;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+    }
+
+  header img{
+    display: block;
+    }
+
+  header h1 {
+    /* Utilizado para estilizar somente o conteúdo dentro da tag h1, nesse caso o título do site*/
+    margin-top: 24px;
+    font-size: 30px;
+    color: #e2e3f0;
+  }
+
+  #quiz{
+    counter-reset: quiz-item;
+  }
+
+  .quiz-item {
+    /* Utilizado para estilizar a div de class "quiz-item". */
+    margin-top: 24px;
+    border: 1px solid white;
+    border-radius: 6px;
+    overflow: hidden;
+
+  font-family: 'Inter', sans-serif;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  }
+
+  .quiz-item h3{
+   padding: 10px 8px;
+   color: #e2e3f0;
+
+   display: flex;
+   align-items: center;
+   gap: 8px;
+
+   background-color: rgb(0, 115, 144);
+  }
+
+  .quiz-item h3:before{
+    counter-increment: quiz-item;
+    content: counter(quiz-item);
+    
+    background-color: #475569;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    font-size: 12px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+  }
+
+  .quiz-item dl{
+    padding: 5px 12px;
+    padding-bottom: 12px;
+
+    display: grid;
+    gap: 10px;
+    /* As duas linhas permitem que seja colocado um espaçamento entre os filhos do dl*/
+  }
+
+  .quiz-item dl dt{
+    font-size: 14px;
+    line-height: 25px;
+    letter-spacing: 0px;
+    color: #e2e3f0;
+
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    }
+
+    input{
+    all: unset;
+    border: 1px solid #e2e3f0;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    }
+
+    input:checked{
+      border: 1px solid #e2e3f0;
+    }
+
+    input:checked:before{
+      content: "";
+      width: 11px;
+      height: 10px;
+      min-height: 11px;
+
+      background-color: #e2e3f0;
+      border-radius: 50%;
+    }
+
+
+
+
+#acertos {
+  text-align: center;
+  background-color: rgb(0, 233, 0);
+  border: 5px solid black;
+
+  position: fixed;
+  bottom: 0;
+  left: 0;
+
+  width: 100%;
+  padding: 8px;
+
+  font-size: 15px;
+  }
+
+#acertos span{
+  font-size: 16px;
+  font-weight: 800;
+}
+
+  #fim{
+    margin: 20px;
+    margin-bottom: -25px;
+    color: #e2e3f0;
+    text-align: center;
+    font-size: 30px;
+    font-style: italic;
+    }
