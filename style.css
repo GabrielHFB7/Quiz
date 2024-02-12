@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Protest+Revolution&family=Sixtyfour:BLED@0..100&display=swap');
+
+
 *, :root {
   margin: 0;
   padding: 0;
@@ -140,9 +143,7 @@
     }
 
 
-
-
-#acertos {
+  #acertos {
   text-align: center;
   background-color: rgb(0, 233, 0);
   border: 5px solid black;
@@ -157,16 +158,43 @@
   font-size: 15px;
   }
 
-#acertos span{
+  #acertos span{
   font-size: 16px;
   font-weight: 800;
 }
 
+
   #fim{
-    margin: 20px;
-    margin-bottom: -25px;
+    margin-top: -6px;
     color: #e2e3f0;
     text-align: center;
+    justify-content: center;
     font-size: 30px;
     font-style: italic;
+    display: flex;
+    }
+
+  #desempenho{
+    color: #e2e3f0;
+    font-size: 16px;
+    display: inline-flex;
+    margin-top: 10px;
+  }
+
+  #classificacao{
+    font-size: 12px;
+  }
+  .ruim{
+    color: red;
+    font-family: 'Sixtyfour', sans-serif;
+  }
+
+  .médio{
+    color: yellow;
+    font-family: 'Sixtyfour', sans-serif;
+    }
+
+  .excelente{
+    color: green;
+    font-family: 'Sixtyfour', sans-serif;
     }
