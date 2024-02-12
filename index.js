@@ -118,6 +118,18 @@ const perguntas = [
       corretas.add(item)
      }
      mostrarTotal.textContent = corretas.size + ' de ' + totalDePerguntas
+
+      const desempenho = corretas.size;
+      if (desempenho >= 8) {
+        classificacao.textContent = "Excelente";
+        classificacao.className = "excelente";
+      } else if (desempenho >= 5) {
+        classificacao.textContent = "Médio";
+        classificacao.className = "médio";
+      } else {
+        classificacao.textContent = "Ruim";
+        classificacao.className = "ruim";
+      }
     }
   
     quizItem.querySelector('dl').appendChild(dt)
