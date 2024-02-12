@@ -1,95 +1,96 @@
 const perguntas = [
     {
-      pergunta: "O que é JavaScript?",
+      pergunta: "Quantos títulos da Copa Libertadores da América o Flamengo conquistou?",
       respostas: [
-        "Uma linguagem de marcação para criar páginas web",
-        "Um estilo de folha de estilos para design de páginas web",
-        "Uma linguagem de programação para tornar páginas web dinâmicas",
+        "2",
+        "3",
+        "1",
+      ],
+      correta: 1
+    },
+    {
+      pergunta: "Qual jogador é conhecido como 'Rei do Flamengo'?",
+      respostas: [
+        "Zico",
+        "Adriano",
+        "Romário",
+      ],
+      correta: 0
+    },
+    {
+      pergunta: "Qual foi o ano da fundação oficial do Clube de Regatas do Flamengo?",
+      respostas: [
+        "1895",
+        "1912",
+        "1905",
+      ],
+      correta: 0
+    },
+    {
+      pergunta: "Em que ano o Flamengo conquistou seu primeiro título brasileiro?",
+      respostas: [
+        "1980",
+        "1979",
+        "1982",
+      ],
+      correta: 0
+    },
+    {
+      pergunta: "Qual estádio é conhecido como a 'casa' do Flamengo?",
+      respostas: [
+        "Maracanã",
+        "Mineirão",
+        "Arena Corinthians",
+      ],
+      correta: 0
+    },
+    {
+      pergunta: "Quem é o maior artilheiro da história do Flamengo?",
+      respostas: [
+        "Gabriel Barbosa",
+        "Zico",
+        "Romário",
+      ],
+      correta: 1
+    },
+    {
+      pergunta: "Qual técnico comandou o Flamengo na conquista da Copa Libertadores de 2019?",
+      respostas: [
+        "Jorge Jesus",
+        "Tite",
+        "Abel Braga",
+      ],
+      correta: 0
+    },
+    {
+      pergunta: "Qual é, aproximadamente, a capacidade oficial do estádio Maracanã?",
+      respostas: [
+        "79.000 espectadores",
+        "82.000 espectadores",
+        "90.000 espectadores",
+      ],
+      correta: 0
+    },
+    {
+      pergunta: "Quantas vezes o Flamengo foi campeão da Copa do Brasil?",
+      respostas: [
+        "3",
+        "4",
+        "7",
+      ],
+      correta: 1
+    },
+    {
+      pergunta: "Qual é o mascote oficial do Flamengo?",
+      respostas: [
+        "Porco",
+        "Leão",
+        "Urubu",
       ],
       correta: 2
-    },
-    {
-      pergunta: "Qual é a forma correta de declarar uma variável em JavaScript?",
-      respostas: [
-        "var myVar;",
-        "let myVar;",
-        "const myVar;",
-      ],
-      correta: 1
-    },
-    {
-      pergunta: "O que o método 'querySelector()' faz em JavaScript?",
-      respostas: [
-        "Seleciona elementos HTML com base em suas classes",
-        "Seleciona elementos HTML com base em seus IDs",
-        "Seleciona elementos HTML com base em seletores CSS",
-      ],
-      correta: 2
-    },
-    {
-      pergunta: "Qual é o operador lógico 'AND' em JavaScript?",
-      respostas: [
-        "||",
-        "&&",
-        "!",
-      ],
-      correta: 1
-    },
-    {
-      pergunta: "O que o método 'addEventListener()' faz em JavaScript?",
-      respostas: [
-        "Remove um evento de um elemento HTML",
-        "Adiciona um manipulador de eventos a um elemento HTML",
-        "Cria um novo evento personalizado",
-      ],
-      correta: 1
-    },
-    {
-      pergunta: "Qual é o resultado da expressão '5 + '5' em JavaScript?",
-      respostas: [
-        "10",
-        "55",
-        "Erro",
-      ],
-      correta: 1
-    },
-    {
-      pergunta: "Como se faz um comentário de linha em JavaScript?",
-      respostas: [
-        "//",
-        "<!-- -->",
-        "/* */",
-      ],
-      correta: 0
-    },
-    {
-      pergunta: "Qual é o método usado para converter uma string em um número inteiro em JavaScript?",
-      respostas: [
-        "parseInt()",
-        "toFloat()",
-        "stringToInt()",
-      ],
-      correta: 0
-    },
-    {
-      pergunta: "O que o operador '===' faz em JavaScript?",
-      respostas: [
-        "Compara valores sem verificar o tipo",
-        "Compara valores e tipos",
-        "Atribui um valor a uma variável",
-      ],
-      correta: 1
-    },
-    {
-      pergunta: "Qual é a forma correta de escrever uma função em JavaScript?",
-      respostas: [
-        "function myFunction() {}",
-        "myFunction: function() {}",
-        "myFunction = function() {}",
-      ],
-      correta: 0
     }
   ];
+
   
   const quiz = document.querySelector('#quiz')
   const template = document.querySelector('template')
