@@ -22,7 +22,6 @@
 
 
   header {
-    /* Utilizado para estilizar o conteúdo dentro da tag header*/
     margin-top: 64px;
     padding-bottom: 5px;
     border-bottom: 1px;
@@ -30,7 +29,7 @@
     display: grid;
     gap: 0px;
 
-    font-family: 'Inter', sans-serif;
+  font-family: 'Inter', sans-serif;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -38,10 +37,6 @@
   -webkit-text-size-adjust: 100%;
     }
 
-  header img{
-    display: block;
-    margin-top: -30px;
-    }
 
   header h1 {
     /* Utilizado para estilizar somente o conteúdo dentro da tag h1, nesse caso o título do site*/
