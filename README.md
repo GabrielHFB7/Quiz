@@ -1,2 +1,2 @@
 # Quiz
-Projeto da trilha HTML/CSS/JavaScript do NLW Expert
+Projeto realizado na trilha HTML/CSS/JavaScript da NLW Expert, evento de programação da empresa Rocketseat
